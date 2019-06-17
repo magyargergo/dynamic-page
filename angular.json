@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "dynamic-page:build"
+            "browserTarget": "dynamic-page:build",
+            "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
             "production": {
@@ -119,6 +120,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "dynamic-page"
 }
