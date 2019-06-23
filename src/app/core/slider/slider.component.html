@@ -1,0 +1,15 @@
+<p-carousel
+  [value]="slides"
+  numVisible="1"
+  circular="circular"
+  autoplayInterval="3000"
+>
+  <ng-template let-slide pTemplate="item">
+    <div class="ui-grid ui-grid-responsive">
+      <img [src]="slide.imageUrl" alt="{{ slide.imageAlt }}" />
+      <div class="carousel-caption">
+        {{ slide.slideCaption }}
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>
