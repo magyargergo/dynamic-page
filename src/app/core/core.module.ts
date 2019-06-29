@@ -1,3 +1,5 @@
+import { CoreComponent } from './core.component';
+import { NavigationBarComponent } from './navigation-header/navigation-bar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -9,7 +11,12 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   imports: [CommonModule, ProgressBarModule, CarouselModule],
-  declarations: [CarouselComponent, ProgressBarComponent],
-  exports: [CarouselComponent, ProgressBarComponent]
+  declarations: [
+    CarouselComponent,
+    ProgressBarComponent,
+    NavigationBarComponent,
+    CoreComponent
+  ],
+  exports: [CoreComponent]
 })
 export class CoreModule {}

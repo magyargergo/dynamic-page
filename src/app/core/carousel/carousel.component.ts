@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Carousel } from './carousel.model';
 
 @Component({
-  selector: 'app-slider',
+  selector: 'app-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css'],
   providers: []
