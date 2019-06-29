@@ -1,5 +1,5 @@
 import { CoreModule } from './core/core.module';
-import { SliderComponent } from './core/slider/slider.component';
+import { CarouselComponent } from './core/carousel/carousel.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';

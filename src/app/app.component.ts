@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Slide } from './core/slider/slide.model';
+import { Carousel } from './core/carousel/carousel.model';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { Slide } from './core/slider/slide.model';
 export class AppComponent {
   title = 'dynamic-page';
 
-  slides: Array<Slide> = [
+  slides: Array<Carousel> = [
     {
       imageUrl: 'https://picsum.photos/1920/1080?image=0'
     },
