@@ -1,0 +1,16 @@
+:host ::ng-deep .ui-progressbar {
+  height: 4px;
+  background: #c5c5c5;
+}
+
+:host ::ng-deep .ui-widget-header {
+  border: none;
+}
+
+:host ::ng-deep .ui-widget-content {
+  border: none;
+}
+
+:host ::ng-deep .ui-corner-all {
+  border-radius: 0;
+}
