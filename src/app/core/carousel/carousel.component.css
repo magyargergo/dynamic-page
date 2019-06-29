@@ -2,25 +2,23 @@
   display: none;
 }
 
-.ui-carousel {
-  width: 100%;
+::ng-deep
+  .ui-carousel
+  .ui-carousel-viewport
+  .ui-carousel-items
+  .ui-carousel-item {
+  margin: 0;
 }
 
-.ui-carousel-item {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  height: 250px;
+::ng-deep
+  body
+  .ui-carousel
+  .ui-carousel-viewport
+  .ui-carousel-items
+  .ui-carousel-item {
+  border: 0;
 }
 
-.ui-carousel-items {
-  width: 100%;
-}
-
-.ui-carousel-viewport {
-  width: 100%;
-}
-
-.ui-carousel-header {
-  background-color: #007aff;
+::ng-deep body .ui-carousel .ui-carousel-viewport {
+  border: 0;
 }
